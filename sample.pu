@@ -1,0 +1,8 @@
+@startuml
+title シーケンス図
+actor Gao
+database DB
+Gao -> DB: Request
+DB <- DB: Loading
+DB -> Gao: Response
+@enduml
